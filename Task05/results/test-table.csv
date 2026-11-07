@@ -1,0 +1,7 @@
+case,actual_result,status
+1,Shared static sequence across two facilities,PASS
+2,Class counter counts issued tickets actual=2 expected=2,PASS
+3,North occupancy is instance state actual=0 expected=0,PASS
+4,South occupancy remains one actual=1 expected=1,PASS
+5,Java passes reference value by value actual=ORIGINAL1 expected=ORIGINAL1,PASS
+6,Caller still holds exited ticket actual=NORTH1 expected=NORTH1,PASS

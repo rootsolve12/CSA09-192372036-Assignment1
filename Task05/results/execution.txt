@@ -1,0 +1,9 @@
+$ java -cp build/main task05.Task05Demo
+PASS Shared static sequence across two facilities
+PASS Class counter counts issued tickets actual=2 expected=2
+PASS North occupancy is instance state actual=0 expected=0
+PASS South occupancy remains one actual=1 expected=1
+PASS Java passes reference value by value actual=ORIGINAL1 expected=ORIGINAL1
+PASS Caller still holds exited ticket actual=NORTH1 expected=NORTH1
+Exited ticket can become GC eligible after last caller reference is cleared; GC timing not asserted.
+CHECKS PASSED 6
