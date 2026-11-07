@@ -1,0 +1,9 @@
+Declared=Vehicle actual=TwoWheeler calculateFee -> rate override
+PASS Runtime dispatch TwoWheeler actual=30.00 expected=30.00
+Declared=Vehicle actual=Car calculateFee -> rate override
+PASS Runtime dispatch Car actual=90.00 expected=90.00
+Declared=Vehicle actual=ElectricCar calculateFee -> rate override
+PASS Runtime dispatch ElectricCar actual=90.00 expected=90.00
+PASS Compile time overload selection gives equal fees actual=90.00 expected=90.00
+PASS Capability dispatch actual=120.00 expected=120.00
+CHECKS PASSED 5

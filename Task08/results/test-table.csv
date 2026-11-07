@@ -1,0 +1,6 @@
+case,actual_result,status
+2,Runtime dispatch TwoWheeler actual=30.00 expected=30.00,PASS
+4,Runtime dispatch Car actual=90.00 expected=90.00,PASS
+6,Runtime dispatch ElectricCar actual=90.00 expected=90.00,PASS
+7,Compile time overload selection gives equal fees actual=90.00 expected=90.00,PASS
+8,Capability dispatch actual=120.00 expected=120.00,PASS

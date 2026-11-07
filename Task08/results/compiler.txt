@@ -1,0 +1,4 @@
+$ java -m jdk.compiler/com.sun.tools.javac.Main -Xlint:all -d build/main [all task src files and tools/Check.java]
+Exit=0
+$ java -m jdk.compiler/com.sun.tools.javac.Main -Xlint:all -d build/Task08 Task08/complete/FeeDemo.java
+Exit=0
