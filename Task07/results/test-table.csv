@@ -1,0 +1,7 @@
+case,actual_result,status
+1,Registration identity across categories,PASS
+2,HashSet equality contract actual=1 expected=1,PASS
+3,Equality rejects null and unrelated type,PASS
+4,Readable Object override actual=Car(TN07GG77) expected=Car(TN07GG77),PASS
+5,Overridden rate changes template result actual=30.00 expected=30.00,PASS
+6,Switch alternative short-stay comparison actual=90 expected=90,PASS

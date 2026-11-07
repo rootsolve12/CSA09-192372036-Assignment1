@@ -1,0 +1,7 @@
+PASS Registration identity across categories
+PASS HashSet equality contract actual=1 expected=1
+PASS Equality rejects null and unrelated type
+PASS Readable Object override actual=Car(TN07GG77) expected=Car(TN07GG77)
+PASS Overridden rate changes template result actual=30.00 expected=30.00
+PASS Switch alternative short-stay comparison actual=90 expected=90
+CHECKS PASSED 6
