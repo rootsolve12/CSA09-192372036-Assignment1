@@ -1,0 +1,7 @@
+ALLOCATED 0,1
+ALLOCATED 0,0
+REJECT Duplicate registration
+REJECT Unknown vehicle type: PLANE
+FEE 60.00
+FEE 30.00
+OCCUPANCY 0 TOTAL 90.00
