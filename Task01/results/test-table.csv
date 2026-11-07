@@ -1,0 +1,7 @@
+case,actual_result,status
+1,First suitable free car slot,PASS
+2,Duplicate registration rejected=Duplicate registration,PASS
+3,One active ticket per occupied slot,PASS
+4,Visitor fee output actual=60.00 expected=60.00,PASS
+5,Release on exit actual=0 expected=0,PASS
+6,Invariants after release,PASS

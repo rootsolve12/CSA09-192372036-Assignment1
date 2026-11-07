@@ -1,0 +1,14 @@
+{
+  "Task01/src/parking/model/Car.java": "f4f262c39e56c09a4a06bc561f7e41731174535ef3191eda04159063ee17892e",
+  "Task01/src/parking/model/Chargeable.java": "4daeb797f62f368bc7b3ebac17c09f01b1789a1635b8e2f1847037009e2511da",
+  "Task01/src/parking/model/ElectricCar.java": "92130f3b1187675786f74567b764491c1ec064f0402bcd94606060012839302e",
+  "Task01/src/parking/model/MonthlyPass.java": "e0b64da4f5e9ef11aaf401bf4b3814b85817c8a4f813777eeefdbe8e16cb07fd",
+  "Task01/src/parking/model/ParkingTicket.java": "f38620aff5543f10183146974718a4ebb1f2569fbc7c397cd38915b014b5b144",
+  "Task01/src/parking/model/ParkingUser.java": "826ea3346d67c7a171643467461c896b6e4ffe4c5f8a02584425177ddebff068",
+  "Task01/src/parking/model/Pass.java": "3e48204fcc08a454720df8181bcf9905ac698a5a2952bc29406da74932bc8dc9",
+  "Task01/src/parking/model/Slot.java": "104dcc3d91c0e707135004ff7aab701b652eaede943bb30b7b05e86d181f4558",
+  "Task01/src/parking/model/TwoWheeler.java": "2e4091291c9b49dd747584d5ccdec2da5126c0bfba787e223f0c4711bd5b4b09",
+  "Task01/src/parking/model/Vehicle.java": "48689aeff74e24936f2eaa448f6d6a79cb2f82f74353b3cbd18931db3b0b24ef",
+  "Task01/src/parking/service/ParkingFacility.java": "1b38c190927470e5e1f612b5184739dbf19719a3e21e116837fed398f7a9071f",
+  "Task01/src/parking/service/VehicleFactory.java": "4b44ba74ab09efec71edaf8f5175f01e1dad7acd6e38428072a381da9296b458"
+}

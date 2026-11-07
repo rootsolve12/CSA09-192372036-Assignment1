@@ -1,0 +1,20 @@
+digraph UML {
+ graph [rankdir=TB,bgcolor="white",pad="0.3",nodesep="0.35",ranksep="0.5"];
+ node [shape=record,fontname="DejaVu Sans",fontsize=10,style=filled,fillcolor="#F2F5F8",color="#536879"];
+ edge [fontname="DejaVu Sans",fontsize=9,color="#536879"];
+ Vehicle [label="{Vehicle abstract|- registration : String|+ calculateFee(minutes)\l+ calculateFee(in,out)\l# hourlyRupees() abstract\l+ requiredSlot() abstract\l}"];
+ TwoWheeler [label="{TwoWheeler|hourly rate 10}"]; Car [label="{Car|hourly rate 30}"];
+ ElectricCar [label="{ElectricCar|+ chargingFee(kWh)}"];
+ Chargeable [label="{Chargeable interface|+ chargingFee(kWh)\l+ chargingUnit() default\l}"];
+ Facility [label="{ParkingFacility|- slots : Slot[][]\l- active : ParkingTicket[]\l- occupancy : int\l|+ enter()\l+ exit()\l# parkingQuote()\l}"];
+ Ticket [label="{ParkingTicket|- static NEXT : AtomicLong\l- id : long\l- entered : LocalDateTime\l}"];
+ Slot [label="{Slot|kind, occupant|+ accepts()\l+ occupy()\l+ release()\l}"];
+ User [label="{ParkingUser|name, role, pass}"];Pass [label="{Pass interface|+ covers(in,out)}"];
+ MonthlyPass [label="{MonthlyPass|month : YearMonth}"];
+ Car -> Vehicle [arrowhead=empty]; TwoWheeler -> Vehicle [arrowhead=empty]; ElectricCar -> Car [arrowhead=empty];
+ ElectricCar -> Chargeable [arrowhead=empty,style=dashed];
+ Facility -> Slot [dir=both,arrowtail=diamond,arrowhead=none,label="owns many"];
+ Facility -> Ticket [label="active 0..T"];
+ Ticket -> Vehicle [label="1"];Ticket -> User [label="1"];User -> Pass [label="0..1"];
+ MonthlyPass -> Pass [arrowhead=empty,style=dashed];
+}

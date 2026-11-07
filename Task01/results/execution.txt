@@ -1,0 +1,8 @@
+$ java -cp build/main task01.Task01Demo
+PASS First suitable free car slot
+PASS Duplicate registration rejected=Duplicate registration
+PASS One active ticket per occupied slot
+PASS Visitor fee output actual=60.00 expected=60.00
+PASS Release on exit actual=0 expected=0
+PASS Invariants after release
+CHECKS PASSED 6
