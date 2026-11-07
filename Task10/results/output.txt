@@ -1,0 +1,8 @@
+PASS Validated setter actual=61 expected=61
+PASS Negative update rejected=Negative duration
+PASS Failed update preserves state actual=61 expected=61
+PASS Negative floor rejected=Invalid slot position
+PASS Past last slot rejected=Invalid slot position
+PASS Wrapper == compares identity, equals compares value
+PASS Null wrapper guarded rejected=Missing wrapper before unboxing
+CHECKS PASSED 7

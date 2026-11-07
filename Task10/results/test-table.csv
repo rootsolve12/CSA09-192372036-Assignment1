@@ -1,0 +1,8 @@
+case,actual_result,status
+1,Validated setter actual=61 expected=61,PASS
+2,Negative update rejected=Negative duration,PASS
+3,Failed update preserves state actual=61 expected=61,PASS
+4,Negative floor rejected=Invalid slot position,PASS
+5,Past last slot rejected=Invalid slot position,PASS
+6,"Wrapper == compares identity, equals compares value",PASS
+7,Null wrapper guarded rejected=Missing wrapper before unboxing,PASS

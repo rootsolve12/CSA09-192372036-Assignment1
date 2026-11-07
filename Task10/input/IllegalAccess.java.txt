@@ -1,0 +1,3 @@
+package illegal;
+import parking.model.Car;
+public class IllegalAccess { public static void main(String[] args) { System.out.println(new Car("XX10").registration); } }

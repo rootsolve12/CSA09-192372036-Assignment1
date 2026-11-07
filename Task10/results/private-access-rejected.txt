@@ -1,0 +1,6 @@
+/workspace/scratch/fa9930c13bab/assignment1/build/negative/IllegalAccess.java:3: error: registration has private access in Vehicle
+public class IllegalAccess { public static void main(String[] args) { System.out.println(new Car("XX10").registration); } }
+                                                                                                        ^
+1 error
+Exit=1
+Expected: nonzero exit for private access
