@@ -1,0 +1,9 @@
+$ java -cp build/main task04.Task04Demo
+PASS Receipt copy preserves identity actual=1 expected=1
+PASS Immutable shallow copy shares immutable identity fields
+PASS Static factory issues fresh identity
+PASS Overloaded constructor chains to canonical constructor actual=VISITOR expected=VISITOR
+PASS Invalid constructor position rejected=Negative slot
+PASS Default then setters temporarily incomplete
+PASS Setters complete draft
+CHECKS PASSED 7

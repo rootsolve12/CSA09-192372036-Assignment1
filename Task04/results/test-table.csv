@@ -1,0 +1,8 @@
+case,actual_result,status
+1,Receipt copy preserves identity actual=1 expected=1,PASS
+2,Immutable shallow copy shares immutable identity fields,PASS
+3,Static factory issues fresh identity,PASS
+4,Overloaded constructor chains to canonical constructor actual=VISITOR expected=VISITOR,PASS
+5,Invalid constructor position rejected=Negative slot,PASS
+6,Default then setters temporarily incomplete,PASS
+7,Setters complete draft,PASS
