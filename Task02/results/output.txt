@@ -1,0 +1,8 @@
+61/60 integer=1 cast after division=1.0 billable hours=2
+PASS Round started hours upward actual=2 expected=2
+PASS Exact decimal money actual=60.00 expected=60.00
+PASS Prefix offsets handle unequal floors actual=TN02BB22 expected=TN02BB22
+PASS Constant width flattening fails for unequal widths
+PASS Positive subminute rounds safely actual=1 expected=1
+PASS Long duration avoids arithmetic overflow actual=1 expected=1
+CHECKS PASSED 6

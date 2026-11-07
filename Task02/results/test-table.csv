@@ -1,0 +1,7 @@
+case,actual_result,status
+2,Round started hours upward actual=2 expected=2,PASS
+3,Exact decimal money actual=60.00 expected=60.00,PASS
+4,Prefix offsets handle unequal floors actual=TN02BB22 expected=TN02BB22,PASS
+5,Constant width flattening fails for unequal widths,PASS
+6,Positive subminute rounds safely actual=1 expected=1,PASS
+7,Long duration avoids arithmetic overflow actual=1 expected=1,PASS
