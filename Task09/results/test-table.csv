@@ -1,0 +1,6 @@
+case,actual_result,status
+1,Vehicle is abstract,PASS
+2,One class implements multiple capabilities,PASS
+3,Interface default method inherited actual=kWh expected=kWh,PASS
+4,Interface static utility actual=12.00 expected=12.00,PASS
+5,Superclass stores constructor initialized state actual=FLEET09 expected=FLEET09,PASS

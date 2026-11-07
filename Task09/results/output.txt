@@ -1,0 +1,6 @@
+PASS Vehicle is abstract
+PASS One class implements multiple capabilities
+PASS Interface default method inherited actual=kWh expected=kWh
+PASS Interface static utility actual=12.00 expected=12.00
+PASS Superclass stores constructor initialized state actual=FLEET09 expected=FLEET09
+CHECKS PASSED 5
