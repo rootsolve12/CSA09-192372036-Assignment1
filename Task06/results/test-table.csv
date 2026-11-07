@@ -1,0 +1,5 @@
+case,actual_result,status
+2,Superclass constructors run first actual=Vehicle constructor > Car constructor > ElectricCar constructor expected=Vehicle constructor > Car constructor > ElectricCar constructor,PASS
+3,Multilevel inheritance and independent capability,PASS
+4,Superclass initialized registration through super actual=TN06FF66 expected=TN06FF66,PASS
+5,Composition alternative matches short-stay rate actual=90 expected=90,PASS

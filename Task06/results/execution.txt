@@ -1,0 +1,7 @@
+$ java -cp build/main task06.Task06Demo
+Constructor trace (instrumented mirror hierarchy): [Vehicle constructor, Car constructor, ElectricCar constructor]
+PASS Superclass constructors run first actual=Vehicle constructor > Car constructor > ElectricCar constructor expected=Vehicle constructor > Car constructor > ElectricCar constructor
+PASS Multilevel inheritance and independent capability
+PASS Superclass initialized registration through super actual=TN06FF66 expected=TN06FF66
+PASS Composition alternative matches short-stay rate actual=90 expected=90
+CHECKS PASSED 4
