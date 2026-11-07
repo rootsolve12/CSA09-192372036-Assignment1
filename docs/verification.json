@@ -1,0 +1,29 @@
+{
+  "task_groups": 12,
+  "java_sources": 35,
+  "assertion_checks": 803,
+  "checks_by_task": {
+    "Task01": 6,
+    "Task02": 6,
+    "Task03": 12,
+    "Task04": 7,
+    "Task05": 6,
+    "Task06": 4,
+    "Task07": 6,
+    "Task08": 5,
+    "Task09": 5,
+    "Task10": 7,
+    "Task11": 722,
+    "Task12": 17
+  },
+  "seeded_invariant_operations": 1000,
+  "independent_van_oracle_cases": 216,
+  "supplied_program_outputs": "exact matches",
+  "cli_output": "exact match",
+  "expected_private_access_compile_failure": "verified",
+  "screenshots": 24,
+  "lookup_timing_batches": 45,
+  "baseline_production_classes_unchanged": 12,
+  "changed_baseline_production_classes": 0,
+  "result": "PASS"
+}

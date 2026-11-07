@@ -1,0 +1,4 @@
+Original production classes compared: 12
+Existing production classes modified: 0
+New extension production classes: 6
+All baseline SHA256 values match docs/baseline-sha256.json
